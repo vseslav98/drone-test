@@ -17,7 +17,7 @@ pipeline:
   deploy-lambda:
     image: omerxx/drone-lambda-plugin
     pull: true
-    function_name: test-function
+    function_name: test
     s3_bucket: test-bucket321123
     file_name: lambda-dir/revenue-report-v1.zip
 
